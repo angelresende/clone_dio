@@ -12,8 +12,9 @@ import {
   Wrapper,
   UserPicture 
 } from './styles'
+import { IHeader } from './types'
 
-function Header({autenticado}) {
+function Header({autenticado}: IHeader) {
   return (
     <Wrapper>
       <Container>

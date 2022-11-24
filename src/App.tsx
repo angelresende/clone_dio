@@ -8,6 +8,7 @@ import {
 import Home from "./pages/home";
 import Login from "./pages/login";
 import Feed from "./pages/feed";
+import React from "react";
 
 function App() {
   return (
