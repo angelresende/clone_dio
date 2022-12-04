@@ -1,8 +1,7 @@
 import React from 'react'
 import { ButtonContainer } from './styles'
-import { IButton } from './types'
 
-function Button({title, variant="primary", onClick}: IButton) {
+function Button({title, variant="primary", onClick}) {
   return (
     <ButtonContainer variant={variant} onClick={onClick}>
       {title}

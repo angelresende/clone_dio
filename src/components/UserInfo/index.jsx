@@ -1,10 +1,8 @@
 import React from 'react'
 
 import { Container, NameText, Progress, UserPicture } from './styles'
-import { IUserInfo } from './types'
 
-
-function UserInfo({ nome, image, percentual }: IUserInfo) {
+function UserInfo({ nome, image, percentual }) {
   return (
     <Container>
         <UserPicture src={image}/>
